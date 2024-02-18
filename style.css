@@ -37,6 +37,9 @@ body {
 .hero h1 {
   font-family: "Sacramento", cursive;
   font-size: 4rem;
+  font-weight: bold;
+  color: rgb(138, 213, 248);
+  text-shadow: 1px 1px 3px var(--pink);
 }
 
 .hero h4 {
@@ -362,7 +365,7 @@ footer li {
   margin: 0.5rem;
 }
 
-.audio-icon-wrapper{
+.audio-icon-wrapper {
   width: 4rem;
   height: 4rem;
   font-size: 4rem;
@@ -374,7 +377,7 @@ footer li {
   opacity: 0.5;
   mix-blend-mode: difference;
   animation: rotating 4s linear infinite;
-  transform-origin: center ;
+  transform-origin: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -382,16 +385,13 @@ footer li {
 }
 
 @keyframes rotating {
-  from{
+  from {
     transform: rotate(0);
   }
-  to{
+  to {
     transform: rotate(360deg);
   }
 }
-
-
-
 
 /* media Query */
 
